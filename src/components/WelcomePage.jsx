@@ -10,7 +10,9 @@ const Welcome = () => {
         <div>
           <p className='text-lg font-bold my-9'>Discover the power of brain training with our interactive platform.</p>
 
-          <button className="get-started-button bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded active:scale-95 transition-transform duration-200">
+          <button className="get-started-button bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded active:scale-95 transition-transform duration-200"
+          onClick={() => {}}
+          >
             Get Started
           </button>
         </div>

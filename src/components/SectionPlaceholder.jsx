@@ -1,14 +1,19 @@
-import React from 'react'
-import Welcome from './WelcomePage'
-import Header from './Header'
+import React from "react";
+import Welcome from "./WelcomePage";
+import QuizPage from "./QuizPage";
+import { useState } from "react";
 
 const SectionPlaceholder = () => {
+  const [showWelcome, setShowWelcome] = useState(true);
   return (
     <div>
-        <Header/>
-        <Welcome />
-    </div>
-  )
-}
+        {/* Main Content */}
+      {/* conditional rendering using state */}
 
-export default SectionPlaceholder
+      {/* {showWelcome && <Welcome />} */}
+      <QuizPage />
+    </div>
+  );
+};
+
+export default SectionPlaceholder;

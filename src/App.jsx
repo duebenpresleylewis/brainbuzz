@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Header from './components/Header';
 import SectionPlaceholder from './components/SectionPlaceholder'
 import './App.css'
 
@@ -7,10 +8,8 @@ function App() {
 
   return (
     <div className="App">
+      <Header />
       <SectionPlaceholder />
-
-      {/* Main Content */}
-      {/* conditional rendering using state */}
 
     </div>
   )
