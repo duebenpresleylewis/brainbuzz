@@ -10,7 +10,7 @@ const SectionPlaceholder = () => {
         {/* Main Content */}
       {/* conditional rendering using state */}
 
-      {/* {showWelcome && <Welcome />} */}
+      {showWelcome && <Welcome changeWelcome={setShowWelcome} />}
       <QuizPage />
     </div>
   );

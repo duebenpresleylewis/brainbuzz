@@ -1,4 +1,5 @@
 import React from "react";
+import questions from "../data/questions.json"; // Import the questions data
 
 const answerOptions = ["Paris", "London", "Berlin", "Madrid"];
 
